@@ -1,0 +1,36 @@
+
+.nav-form{
+    width:53vw;
+
+}
+
+.input-wrapper{
+    display-flex;
+    width:52vw;
+    height:32.59px;
+    position:relative;
+    top:3px;
+    left:7px;
+}
+.li-abt{
+    display:none;
+
+}
+.ovr{
+    display:none;
+
+}
+.nav-ul {
+    display: flex;
+
+    ul {
+        display: flex;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+	width:auto;
+	height:32px;
+	align-items:center;
+	   
+    }
+
+}

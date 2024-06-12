@@ -1,0 +1,38 @@
+.nav-form{
+    width:45vw;
+
+}
+
+.input-wrapper{
+    display:flex;
+    width:45vw;
+    height:32.59px;
+    position:relative;
+    top:3px;
+    left:7px;
+}
+nav{
+margin:0;
+
+}
+.nav-container{
+
+margin:0;
+}
+    .stats-wrapper {
+        margin-top: 70px;
+        width: 100%;
+    }
+.left-area-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 12px;
+}
+.stats-box{
+    width:100%;
+}
+    .question-box {
+        margin-left: 48px;
+        position: relative;
+        left: 0px;
+    }
