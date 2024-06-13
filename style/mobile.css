@@ -92,6 +92,41 @@
 .user-time-list {
     font-size: 11px;
 }
+    .content-button-wrapper{
+    top:30px;
+}
+    .stats-wrapper {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .stats-box {
+        width: 395px;
+    }
+.badges-wrapper{
+    width: 395px;
+}
+    .reached-box {
+        margin-left: auto;
+        position: relative;
+        left: 15px;
+    }
+    .question-box {
+        margin-left: 48px;
+        position: relative;
+        right: 16px;
+        left:0;
+    }
+.right-area-wrapper{
+    width: 395px;
+}
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 375px) {
     .button-wrapper{
         position: relative;
@@ -156,6 +191,54 @@
         }
     }
 }
+
+
+.badges-wrapper{
+    width: 345px;
+}
+    .reached-box {
+        margin-left: auto;
+        position: relative;
+        left: 15px;
+    }
+    .question-box {
+        margin-left: 48px;
+        position: relative;
+        right: 16px;
+        left:0;
+    }
+.right-area-wrapper{
+    width: 345px;
+}
+.stats-box {
+        width: 345px;
+    }
+.stats-label {
+    color: rgb(99, 107, 116);
+    font-size: 11px;
+}
+.trophy-label {
+    font-size: 11px;
+    color: rgb(99, 107, 116);
+}
+trophy-icon{
+    font-size:19px;
+}
+.answer-box{
+    position: relative;
+    left: 23;
+}
+
+
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 320px) {
     .button-wrapper{

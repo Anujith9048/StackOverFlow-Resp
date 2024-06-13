@@ -210,3 +210,14 @@ input{
     margin-top: 22px;
     width: 197px;
 }
+.badge-boxes{
+    display:block;
+}
+.box-3{
+    margin-left:0px;
+    margin-top:25px;
+    width:100%;
+}
+.badges-box{
+    width:261px;
+}
