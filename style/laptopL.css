@@ -132,6 +132,9 @@ input{
     top:3px;
     left:3px;
 }
+.content-wrapper{
+    width: 100%;
+}
 
 .button-wrapper{
     width:140 px;
@@ -168,7 +171,7 @@ input{
 .stats-box {
     border: 1px solid #d6d9dc;
     border-radius: 4px;
-    width: 169px;
+    width: calc(100% - 28px);
     height: 153px;
     padding: 12px;
 }
@@ -213,11 +216,69 @@ input{
 .badge-boxes{
     display:block;
 }
+  
 .box-3{
     margin-left:0px;
     margin-top:25px;
     width:100%;
 }
 .badges-box{
-    width:261px;
+    width:100%;
 }
+.right-area-wrapper{
+    width: 94%;
+}
+.post-button {
+    width: 38px;
+    height: 23px;
+}
+
+.post-sen p{
+    margin-left: 15px;
+        padding-right: 12px
+}
+.post-sen a{
+    margin-left: 0px;
+}
+ .post-sen {
+     width: 366px;
+}
+footer{
+    background-color:#0c0d0e;
+    color:#babfc5;
+    h5{
+	color:#c8ccd0;
+	margin-bottom:12px;
+	cursor:pointer;
+    }
+    a{
+	text-decoration:none;
+        color:#babfc5;
+    }
+    
+}
+.site-footer-container{
+    margin:0px;
+    padding:32px 12px 12px 12px;
+}
+.site-footer-logo{
+    width:64px;
+    margin-right:14px;
+    margin-top:-12px;
+    margin-bottom:32px;
+}
+.site-footer-nav{
+    width:1963.2px;
+    box-sizing:border-box;
+}
+.site-footer-col{
+    flex:1 0 auto;
+    padding:0px 12px 24px 0px;
+}
+.site-footer-col a{
+    padding:4px 0px;
+    font-size:13px;
+}
+.copy-bottom{
+     margin:202.875px 0px 24px 0px;
+     font-size:11px;

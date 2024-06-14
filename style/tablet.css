@@ -13,6 +13,7 @@
 }
 nav{
 margin:0;
+width: 768px;
 
 }
 .nav-container{
@@ -67,6 +68,92 @@ margin:0;
         margin-top: 25px;
         width: 100% !important;
     }
-    .badges-box {
-        width: 271px;
+        .badges-box {
+        width: 100%;
     }
+
+.badge-title{
+    display:block;
+}
+
+.post-title{
+    p{
+        
+        font-size:21px;
+    }
+    display:block;
+    width:100%;
+    height:28px;
+    margin-bottom:8px;
+
+    span{
+        font-size:13px;
+   	position:relative;
+	top:6;
+    }
+}
+.top-posts-box {
+    margin-top: 83px;
+}
+.badge-boxes{
+        width: 100%;
+}
+.top-tags-wrapper{
+        width: 100%;
+}
+.site-footer-nav{
+    display:block !important;
+}
+.footer-links{
+    display:flex;
+}
+.site-footer-container{
+    display:block !important;
+}
+    .copy-bottom {
+        margin: 0.875px 0px 24px 0px;
+        font-size: 11px;
+    }
+.mlt{
+    margin-left:12px;
+}
+    footer {
+        h5 {
+            color: #c8ccd0;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+    }
+.badges-wrapper {
+        width: 100%;
+    }
+
+    .site-footer-nav {
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .coll-2 {
+        display: block;
+        margin-top: 12px;
+        width: 100%;
+    }
+    .collec-box {
+        border: 1px solid #d6d9dc;
+        border-radius: 4px;
+        width: 100%;
+}
+    .commu-box {
+        width: 100%;
+    }
+.meta-button {
+    width: 38px;
+    height: 30px;
+}
+
+.meta-side{
+    width: 73px;
+    position: relative;
+    bottom: 25px;
+
+}
