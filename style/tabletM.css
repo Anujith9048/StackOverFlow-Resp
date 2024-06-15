@@ -1,0 +1,100 @@
+.nav-form{
+    width:10vw;
+
+}
+
+.input-wrapper{
+    background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display:flex;
+    width:5vw;
+    height:32.59px;
+    position:relative;
+    top:0px;
+    left:288px;
+
+    img{
+        display: none;
+    }
+}
+.nav-ul {
+    display: flex;
+
+    ul {
+        display: flex;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+	    width:56px;
+	    height:32px;
+	    align-items:center;
+        
+	   
+    }
+
+}
+.nav-ul li {
+    text-decoration: none;
+    list-style: none;
+
+    a {
+        position: relative;
+        bottom: 1px;
+        left: -12px;
+        top: -2;
+        text-decoration: none;
+        color: rgb(99, 107, 116);
+        padding-left: 9px;
+	padding:6px 2px;
+	font-size:11px;
+    }
+ 
+}
+
+.logo-box{
+    position: relative;
+    top: 1px;
+    right: 5px;
+    background: url("logo.jpeg");
+    width: 15vw;
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    img{
+        display: none;
+    }
+}
+.nav-input{
+    display: none;
+}
+nav{
+    margin:0;
+
+}
+.nav-container{
+    width: 100%;
+    margin:0;
+}
+.button-wrapper{
+    position: relative;
+    left: 246;
+    bottom: 3;
+    width:145.67px;
+    height:52px;
+    align-items:center;
+    padding:0px 12px 0px 0px;
+    margin-left:12px;
+    margin-right:17px;
+
+    button{
+    	position:relative;
+	top:12px;
+    }
+}
+
+
+.left-area{
+    display:none;
+    
+}
