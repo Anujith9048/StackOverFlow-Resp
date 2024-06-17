@@ -1,107 +1,128 @@
-nav{
-    width:375px;
-} 
+nav {
+    width: 375px;
+}
 
-.button-wrapper{
+.button-wrapper {
+    position: relative;
+    left: 67px;
+    bottom: 3;
+    width: 145.67px;
+    height: 52px;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right: 17px;
+
+    button {
         position: relative;
-        left: 67px;
-        bottom: 3;
-        width:145.67px;
-        height:52px;
-        align-items:center;
-        padding:0px 0px 0px 0px;
-        margin-left:0px;
-        margin-right:17px;
-    
-        button{
-            position:relative;
-        top:12px;
-        }
+        top: 12px;
     }
-    .input-wrapper{
-        background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
-        background-position: center;
-        background-size: 19px;
-        background-repeat: no-repeat;
-        display:flex;
-        width:5vw;
-        height:32.59px;
-        position:relative;
-        top:0px;
-        left:73px;
-    
-        img{
-            display: none;
-        }
+}
+
+.input-wrapper {
+    background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
+    background-position: center;
+    background-size: 19px;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 5vw;
+    height: 32.59px;
+    position: relative;
+    top: 0px;
+    left: 73px;
+
+    img {
+        display: none;
     }
-    .nav-ul li {
+}
+
+.nav-ul li {
+    text-decoration: none;
+    list-style: none;
+
+    a {
+        position: relative;
+        bottom: 1px;
+        left: 27px;
+        top: -2;
         text-decoration: none;
-        list-style: none;
-    
-        a {
-            position: relative;
-            bottom: 1px;
-            left: 27px;
-            top: -2;
-            text-decoration: none;
-            color: rgb(99, 107, 116);
-            padding-left: 9px;
-        padding:6px 2px;
-        font-size:11px;
-        }
-     
+        color: rgb(99, 107, 116);
+        padding-left: 9px;
+        padding: 6px 2px;
+        font-size: 11px;
     }
-    .logo-box{
-        position: relative;
-        top: 0px;
-        left: 13px;
-        background: url("logo.jpeg");
-        width: 15vw;
-        background-position: center;
-        background-size: 90px;
-        background-repeat: no-repeat;
-        img{
-            display: none;
-        }
+
+}
+
+.logo-box {
+    position: relative;
+    top: 0px;
+    left: 13px;
+    background: url("logo.jpeg");
+    width: 15vw;
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+
+    img {
+        display: none;
     }
+}
 }
 
 
-.badges-wrapper{
+.badges-wrapper {
     width: 345px;
 }
-    .reached-box {
-        margin-left: auto;
-        position: relative;
-        left: 15px;
-    }
-    .question-box {
-        margin-left: 48px;
-        position: relative;
-        right: 16px;
-        left:0;
-    }
-.right-area-wrapper{
-    width: 345px;
+
+.reached-box {
+    margin-left: auto;
+    position: relative;
+    left: 15px;
 }
+
+.question-box {
+    margin-left: 48px;
+    position: relative;
+    right: 16px;
+    left: 0;
+}
+
+.right-area-wrapper {
+    width: 344px;
+}
+
 .stats-box {
-        width: 100%;
-    }
+    width: 100%;
+}
+
 .stats-label {
     color: rgb(99, 107, 116);
     font-size: 11px;
 }
+
 .trophy-label {
     font-size: 11px;
     color: rgb(99, 107, 116);
 }
-trophy-icon{
-    font-size:19px;
+
+trophy-icon {
+    font-size: 19px;
 }
-.answer-box{
+
+.answer-box {
     position: relative;
     left: 23;
 }
+
 .badges-wrapper {
     width: 100%;
+}
+
+.user-location-details {
+    margin-top: 14px;
+}
+
+.user-time-list {
+    margin-top: 2px;
 }

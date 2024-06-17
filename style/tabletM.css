@@ -1,24 +1,40 @@
-.nav-form{
-    width:10vw;
 
+nav{
+    width:100%
 }
 
-.input-wrapper{
+.nav-form {
+    width: 10vw;
+
+}
+.button-wrapper {
+    position: relative;
+    left: 246;
+    bottom: 3;
+    width: 132.67px;
+    height: 52px;
+    align-items: center;
+    padding: 0px 12px 0px 0px;
+    margin-left: auto;
+    margin-right: 17px;
+}
+.input-wrapper {
     background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
     background-position: center;
     background-size: 20px;
     background-repeat: no-repeat;
-    display:flex;
-    width:5vw;
-    height:32.59px;
-    position:relative;
-    top:0px;
-    left:288px;
+    display: flex;
+    width: 5vw;
+    height: 32.59px;
+    position: relative;
+    top: 0px;
+    left: 266px;
 
-    img{
+    img {
         display: none;
     }
 }
+
 .nav-ul {
     display: flex;
 
@@ -26,14 +42,15 @@
         display: flex;
         margin-block-start: 1em;
         margin-block-end: 1em;
-	    width:56px;
-	    height:32px;
-	    align-items:center;
-        
-	   
+        width: 56px;
+        height: 32px;
+        align-items: center;
+
+
     }
 
 }
+
 .nav-ul li {
     text-decoration: none;
     list-style: none;
@@ -46,13 +63,13 @@
         text-decoration: none;
         color: rgb(99, 107, 116);
         padding-left: 9px;
-	padding:6px 2px;
-	font-size:11px;
+        padding: 6px 2px;
+        font-size: 11px;
     }
- 
+
 }
 
-.logo-box{
+.logo-box {
     position: relative;
     top: 1px;
     right: 5px;
@@ -61,40 +78,45 @@
     background-position: center;
     background-size: 90px;
     background-repeat: no-repeat;
-    img{
+
+    img {
         display: none;
     }
 }
-.nav-input{
+
+.nav-input {
     display: none;
 }
-nav{
-    margin:0;
+
+nav {
+    margin: 0;
 
 }
-.nav-container{
+
+.nav-container {
     width: 100%;
-    margin:0;
+    margin: 0;
 }
-.button-wrapper{
+
+.button-wrapper {
     position: relative;
     left: 246;
     bottom: 3;
-    width:145.67px;
-    height:52px;
-    align-items:center;
-    padding:0px 12px 0px 0px;
-    margin-left:12px;
-    margin-right:17px;
+    width: 145.67px;
+    height: 52px;
+    align-items: center;
+    padding: 0px 12px 0px 0px;
+    margin-left: 235px;
+    margin-right: 17px;
 
-    button{
-    	position:relative;
-	top:12px;
+    button {
+        position: relative;
+        top: 12px;
     }
 }
 
 
-.left-area{
-    display:none;
-    
+.left-area {
+    display: none;
+
 }

@@ -1,103 +1,119 @@
+.button-wrapper {
+    position: relative;
+    left: 16px;
+    bottom: 3;
+    width: 145.67px;
+    height: 52px;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin-left: 12px;
+    margin-right: 17px;
 
-    .button-wrapper{
+    button {
         position: relative;
-        left: 16px;
-        bottom: 3;
-        width:145.67px;
-        height:52px;
-        align-items:center;
-        padding:0px 0px 0px 0px;
-        margin-left:12px;
-        margin-right:17px;
-    
-        button{
-            position:relative;
-        top:12px;
-        }
+        top: 12px;
     }
-    .input-wrapper{
-        background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
-        background-position: center;
-        background-size: 19px;
-        background-repeat: no-repeat;
-        display:flex;
-        width:5vw;
-        height:32.59px;
-        position:relative;
-        top:0px;
-        left:35px;
-    
-        img{
-            display: none;
-        }
+}
+
+.input-wrapper {
+    background: url("https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png");
+    background-position: center;
+    background-size: 19px;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 5vw;
+    height: 32.59px;
+    position: relative;
+    top: 0px;
+    left: 35px;
+
+    img {
+        display: none;
     }
-    .nav-ul li {
+}
+
+.nav-ul li {
+    text-decoration: none;
+    list-style: none;
+
+    a {
+        position: relative;
+        bottom: 1px;
+        left: 27px;
+        top: -2;
         text-decoration: none;
-        list-style: none;
-    
-        a {
-            position: relative;
-            bottom: 1px;
-            left: 27px;
-            top: -2;
-            text-decoration: none;
-            color: rgb(99, 107, 116);
-            padding-left: 9px;
-        padding:6px 2px;
-        font-size:11px;
-        }
-     
-    }
-    .logo-box{
-        position: relative;
-        top: 0px;
-        left: 13px;
-        background: url("logo.jpeg");
-        width: 15vw;
-        background-position: center;
-        background-size: 90px;
-        background-repeat: no-repeat;
-        img{
-            display: none;
-        }
+        color: rgb(99, 107, 116);
+        padding-left: 9px;
+        padding: 6px 2px;
+        font-size: 11px;
     }
 
+}
 
-    .user-status-details{
-        display: block;
-        width:178px; 
-    }
-    .user-data-wrapper{
+.logo-box {
+    position: relative;
+    top: 0px;
+    left: 13px;
+    background: url("logo.jpeg");
+    width: 15vw;
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
 
-        width:auto;
+    img {
+        display: none;
     }
+}
+
+
+.user-status-details {
+    display: block;
+    width: 178px;
+}
+
+.user-data-wrapper {
+
+    width: auto;
+}
+
 .badge-2-boxes {
     display: block;
 }
-.t-2{
-    margin-top:25px;
-    margin-left:0px;
+
+.t-2 {
+    margin-top: 25px;
+    margin-left: 0px;
 }
+
 .points-wrapper {
     margin-top: 21px;
 }
+
 .post-button {
     width: 38px;
     height: 27px;
 }
-.post-sen p{
+
+.post-sen p {
     margin-left: 15px;
-        padding-right: 12px
+    padding-right: 12px
 }
-.post-sen a{
+
+.post-sen a {
     margin-left: 0px;
 }
- .post-sen {
-     width: 159px;
+
+.post-sen {
+    width: 159px;
 }
-.meta-side{
+
+.meta-side {
     width: 73px;
     position: relative;
     bottom: 25px;
 
+}
+
+.right-area-wrapper {
+    width: 290px;
 }
