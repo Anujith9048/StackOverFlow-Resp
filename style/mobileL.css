@@ -79,6 +79,11 @@
     right: 4px;
     position: relative;
 }
+    footer {
+        background-color: #0c0d0e;
+        color: #babfc5;
+        width: 109%;
+    }
 .user-status-list {
     color: #5e5e5e;
     display: flex;
@@ -143,3 +148,61 @@ footer{
         width: 224px;
     }
 
+.answer-box{
+    margin-left: 66px;
+}
+.stats-label {
+    color: rgb(99, 107, 116);
+    font-size: 11px;
+}
+.stats-nums {
+    font-size: 15px;
+}
+.reached-box {
+    margin-left: auto;
+    position: relative;
+    left: 33px;
+}
+.trophy-label {
+    font-size: 11px;
+    color: rgb(99, 107, 116);
+}
+.question-box {
+    margin-left: 33px;
+    position: relative;
+    right: 16px;
+    left: 0;
+}
+.logo-box {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    background: url(logo.jpeg);
+    width: 15vw;
+    background-position: center;
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.post-sen a{
+    font-size: 12px !important;
+}
+.m-r {
+    margin-right: 14px;
+}
+.points-wrapper {
+    span {
+        font-size: 11px;
+        color: #636b74;
+    }
+}
+.meta-post-sen {
+    width: 100% !important;
+}
+.points-wrapper {
+    text-align: center;
+    align-content: center;
+}
+.top-tags-score-box{
+    text-align: center;
+    align-content: center !important;
+}

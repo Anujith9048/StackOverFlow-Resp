@@ -5,11 +5,24 @@
 
 .input-wrapper {
     display-flex;
-    width: 52vw;
+    width: 49vw;
     height: 32.59px;
     position: relative;
     top: 3px;
     left: 7px;
+}
+.button-wrapper {
+    width: 140 px;
+    height: 52px;
+    align-items: center;
+    padding: 0px 1px 0px 0px;
+    margin-left: 33px;
+    margin-right: 0px;
+}
+.left-area-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 12px;
 }
 
 .li-abt {
@@ -62,7 +75,7 @@
 .stats-box {
     border: 1px solid #d6d9dc;
     border-radius: 4px;
-    width: 783px;
+    width: 75vw;
     height: 73px;
     padding: 12px;
     box-sizing: border-box;
@@ -137,4 +150,15 @@
 }
 .profile-btn{
     display:none;
+}
+.area-wrapper {
+    display: block;
+}
+.right-area-wrapper {
+    width: 100%;
+}
+.stats-wrapper {
+    margin-top: 70px;
+    width: auto;
+    height: 127px;
 }

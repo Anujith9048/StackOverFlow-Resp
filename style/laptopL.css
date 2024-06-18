@@ -13,6 +13,9 @@ nav {
     border-bottom: 1px solid #636b734a;
 
 }
+        .badge-2-boxes {
+            width: auto;
+        }
 
 .nav-container {
     align-items: center;
@@ -313,3 +316,6 @@ footer {
 .copy-bottom {
     margin: 202.875px 0px 24px 0px;
     font-size: 11px;
+}
+
+
