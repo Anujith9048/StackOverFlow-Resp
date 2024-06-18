@@ -79,11 +79,11 @@
     right: 4px;
     position: relative;
 }
-    footer {
-        background-color: #0c0d0e;
-        color: #babfc5;
-        width: 109%;
-    }
+footer {
+    background-color: #0c0d0e;
+    color: #babfc5;
+    width: 109%;
+}
 .user-status-list {
     color: #5e5e5e;
     display: flex;
