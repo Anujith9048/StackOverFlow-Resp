@@ -57,6 +57,12 @@
 .txt-21 {
     font-size: 21px;
 }
+.metaNW{
+    margin-right:9px;
+}
+.nw-dot{
+    width:21px;
+}
 
 nav {
     background-color: #fff;
