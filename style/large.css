@@ -1,0 +1,64 @@
+.badges-box {
+    border: 1px solid #d6d9dc;
+    border-radius: 4px;
+    width: 18vw;
+    height: 171px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1173px) {
+
+.badges-box {
+        border: 1px solid #d6d9dc;
+        border-radius: 4px;
+        width: 17vw;
+        height: 171px;
+        padding: 12px;
+        box-sizing: border-box;
+}
+.badge-2-boxes{
+    width: 33vw;
+}
+
+}
+
+
+@media only screen and (max-width: 882px) and (min-width: 769px){
+
+footer{
+    width: 104%;
+}
+} 
+
+@media only screen and (max-width: 702px) and (min-width: 641px){
+
+footer{
+    width: 110%;
+}
+} 
+@media only screen and (max-width: 506px) and (min-width: 426px){
+
+footer{
+    width: 119%;
+}
+} 
+
+
+@media only screen and (max-width: 1250px) and (min-width: 1174px){
+
+footer{
+    width: 103%;
+}
+} 
+@media only screen and (max-width: 1098px) and (min-width: 1025px){
+
+footer{
+    width: 110%;
+}
+} 

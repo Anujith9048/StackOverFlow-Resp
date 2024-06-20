@@ -57,6 +57,12 @@
 .txt-21 {
     font-size: 21px;
 }
+.metaNW{
+    margin-right:9px;
+}
+.nw-dot{
+    width:21px;
+}
 
 nav {
     background-color: #fff;
@@ -804,7 +810,7 @@ li {
 .badges-box {
     border: 1px solid #d6d9dc;
     border-radius: 4px;
-    width: 245px;
+    width: 242pxvw;
     height: 171px;
     padding: 12px;
     box-sizing: border-box;
@@ -929,7 +935,6 @@ li {
     }
 
 }
-
 .br-t {
     border-top: 1px solid #d6d9dc;
     border-radius: 5px 5px 0px 0px;
@@ -1187,6 +1192,9 @@ footer a {
     display: block;
 }
 .profile-btn{ 
+    position: relative;
+    bottom: 6px;
+    left: -1px;
     cursor:pointer;
     float:right;
     margin-left:auto;
