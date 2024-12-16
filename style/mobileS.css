@@ -87,6 +87,9 @@
 
 .points-wrapper {
     margin-top: 21px;
+    p{
+	font-size:14px;
+    }
 }
 
 .post-button {
@@ -101,10 +104,12 @@
 
 .post-sen a {
     margin-left: 0px;
+    
 }
 
 .post-sen {
-    width: 159px;
+    width: 123px;
+    line-height: 13px;
 }
 
 .meta-side {
@@ -117,3 +122,27 @@
 .right-area-wrapper {
     width: 290px;
 }
+.stats-box{
+    flex-wrap: wrap;
+    height: auto;
+}
+    .answer-box {
+        position: relative;
+        left: 0px;
+    }
+    .reached-box {
+        margin-left: auto;
+        position: relative;
+        left: 31px;
+    }
+.trophy-wrapper{
+    margin-top: 12px;
+}
+.about-wrapper {
+    margin: 46px 12px 12px 0px;
+}
+points-wrapper{
+        margin-top: 15px;
+        position: relative;
+        top: 7px;
+    }
